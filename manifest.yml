@@ -1,0 +1,15 @@
+--- 
+applications: 
+  dist/cf-unfiltered-sample/cf-unfiltered-sample.zip: 
+    name: cf-unfiltered-sample
+    framework: 
+      name: standalone
+      info: 
+        mem: 64M
+        description: Standalone Application
+        exec: 
+    runtime: java
+    command: java $JAVA_OPTS -jar cf-unfiltered-sample_2.9.1-0.1.0-SNAPSHOT.jar
+    url: cf-unfiltered-sample.${target-base}
+    mem: 512M
+    instances: 1
