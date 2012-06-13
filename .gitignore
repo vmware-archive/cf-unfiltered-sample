@@ -1,3 +1,7 @@
 dist
 target
 log
+.project
+.classpath
+.settings
+.cache

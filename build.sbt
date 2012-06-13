@@ -20,3 +20,5 @@ libraryDependencies ++= Seq(
 resolvers ++= Seq(
   "java m2" at "http://download.java.net/maven/2"
 )
+
+EclipseKeys.withSource := true
