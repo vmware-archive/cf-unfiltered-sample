@@ -1,3 +1,5 @@
+# This repository is no longer actively maintained by VMware, Inc.
+
 cf-unfiltered-sample
 ================
 An [Unfiltered](https://github.com/unfiltered/unfiltered) sample generated from the [giter8 template](https://github.com/softprops/unfiltered.g8).  Unfiltered is a toolkit for servicing HTTP requests in Scala.  This example uses embedded Jetty and is deployed to Cloud Foundry as a standalone application.
